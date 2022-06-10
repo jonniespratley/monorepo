@@ -1,4 +1,4 @@
-# @bigstair/map
+# @jsapps/map
 
 ## 1.0.0
 

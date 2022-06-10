@@ -1,4 +1,4 @@
-# @bigstair/core
+# @jsapps/core
 
 ## 1.0.6
 

@@ -1,4 +1,4 @@
-import {Flex}  from '@momentum-ui/react-collaboration';
+import {Avatar, Icon, List, ListItemBase, ListItemBaseSection, PresenceType}  from '@momentum-ui/react-collaboration';
 import * as React from 'react';
 
 export interface SomeWidgetProps {
@@ -9,22 +9,21 @@ export interface SomeWidgetProps {
 export function SomeWidget({ children }: SomeWidgetProps) {
   return (
     <div>
-      <Flex
-        alignContent="flex-start"
-        alignItems="flex-start"
-        direction="row"
-        justifyContent="flex-start"
-        style={{
-          border: '1px solid red',
-          height: '20rem',
-          minWidth: '20rem',
-        }}
-        wrap="nowrap"
-      >
-        <div>Item 1</div>
-        <div>Item 2</div>
-        <div>Item 3</div>
-      </Flex>
+     <List >
+     <ListItemBase size={50} shape="isPilled">
+  <ListItemBaseSection position="start">
+    Icon
+  </ListItemBaseSection>
+  <ListItemBaseSection position="fill">Text goes here</ListItemBaseSection>
+  <ListItemBaseSection position="end">
+    End
+  </ListItemBaseSection>
+</ListItemBase>
+  <ListItemBase itemIndex={1}>Item 2</ListItemBase>
+  <ListItemBase itemIndex={2}>Item 3</ListItemBase>
+  <ListItemBase itemIndex={3}>Item 4</ListItemBase>
+  <ListItemBase itemIndex={4}>Item 5</ListItemBase>
+</List>
     </div>
   );
 }

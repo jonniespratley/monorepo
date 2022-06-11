@@ -74,7 +74,7 @@ tsup src/index.tsx --format esm,cjs --dts --external react
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
-  "sideEffects": false,
+  "sideEffects": false
 }
 ```
 

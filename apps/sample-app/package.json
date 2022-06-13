@@ -2,9 +2,7 @@
   "name": "sample-app",
   "version": "0.0.0",
   "description": "A sample app",
-  "source": "src/index.tsx",
-  "module": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "source": "src/index.html",
   "license": "MIT",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
@@ -12,7 +10,6 @@
     "dev": "parcel --open",
     "test": "jest",
     "lint": "eslint",
-    "check": "tsc --noEmit",
     "ci": "yarn build && yarn test && yarn lint && yarn check",
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
   },
@@ -26,13 +23,6 @@
     "react-dom": "18.0.0"
   },
   "devDependencies": {
-    "@parcel/transformer-typescript-tsc": "2.6.0",
-    "@types/react": "18.0.0",
-    "@types/react-dom": "18.0.0",
-    "parcel": "2.6.0",
-    "parcel-transformer-ttypescript": "^1.0.2",
-    "preact": "10.7.3",
-    "ts-config-jsapps": "*",
-    "typescript": ">=3.0.0"
+    "parcel": "2.6.0"
   }
 }

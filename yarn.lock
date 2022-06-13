@@ -2249,11 +2249,12 @@ __metadata:
   resolution: "@jsapps/core@workspace:packages/jsapps-core"
   dependencies:
     "@momentum-ui/react-collaboration": ^26.3.0
-    "@types/react": 18.0.9
-    "@types/react-dom": 18.0.4
+    "@types/react": 18.0.0
+    "@types/react-dom": 18.0.0
     eslint: 8.15.0
     eslint-config-jsapps: "*"
-    react: 18.1.0
+    react: 18.0.0
+    react-dom: 18.0.0
     ts-config-jsapps: "*"
     tsup: 5.10.1
     typescript: 4.5.3
@@ -2294,11 +2295,12 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@jsapps/map@workspace:packages/jsapps-map"
   dependencies:
-    "@types/react": 18.0.9
-    "@types/react-dom": 18.0.4
+    "@types/react": 18.0.0
+    "@types/react-dom": 18.0.0
     eslint: 8.15.0
     eslint-config-jsapps: "*"
-    react: 18.1.0
+    react: 18.0.0
+    react-dom: 18.0.0
     ts-config-jsapps: "*"
     tsup: 5.10.1
     typescript: 4.5.3
@@ -3362,19 +3364,6 @@ __metadata:
     posthtml-render: ^3.0.0
     semver: ^5.7.1
   checksum: 64d0274d7ada8473250d9107e72b1da26f2da74942177b73833e5272db7812934d6db24d02b5d49f05920963d2e17cacb090679e6e75f4414d56bff8dec39100
-  languageName: node
-  linkType: hard
-
-"@parcel/transformer-typescript-tsc@npm:2.6.0":
-  version: 2.6.0
-  resolution: "@parcel/transformer-typescript-tsc@npm:2.6.0"
-  dependencies:
-    "@parcel/plugin": 2.6.0
-    "@parcel/source-map": ^2.0.0
-    "@parcel/ts-utils": 2.6.0
-  peerDependencies:
-    typescript: ">=3.0.0"
-  checksum: be38d220cf9d8d740c3e1ab3bd3006f2d4b74c7e7b668b3dfdcab3fff1cf51af1b00763919cf999e811af8c1448302d5109609d4cf0efac0cfe62302bab1c112
   languageName: node
   linkType: hard
 
@@ -8165,15 +8154,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:18.0.4":
-  version: 18.0.4
-  resolution: "@types/react-dom@npm:18.0.4"
-  dependencies:
-    "@types/react": "*"
-  checksum: decde42d02a90ac2fe94fd6bfd9c78d002c03762a2d940df9422bf61af89c03d05e2113fd55fe45521fe27fa872a79dfd654b7d6b89652b455425efdcb763c58
-  languageName: node
-  linkType: hard
-
 "@types/react-syntax-highlighter@npm:11.0.5":
   version: 11.0.5
   resolution: "@types/react-syntax-highlighter@npm:11.0.5"
@@ -8202,17 +8182,6 @@ __metadata:
     "@types/scheduler": "*"
     csstype: ^3.0.2
   checksum: 8a9769e2cabe335c86179881577e6ca32f3a6abdd5adbe2d498e48b78d532130da828a53ef25f21915179da454654b811292e0a8191c8a81af3bf4b05f5673bd
-  languageName: node
-  linkType: hard
-
-"@types/react@npm:18.0.9":
-  version: 18.0.9
-  resolution: "@types/react@npm:18.0.9"
-  dependencies:
-    "@types/prop-types": "*"
-    "@types/scheduler": "*"
-    csstype: ^3.0.2
-  checksum: 162364dad716d9017ee34aabf2ea37499709ebbdef70392ae1b39225985971e1a46f121efb9c5c7da92144ee1d96d4525df806a7c1c03a5db7fd31dd034ddc7a
   languageName: node
   linkType: hard
 
@@ -17580,13 +17549,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"parcel-transformer-ttypescript@npm:^1.0.2":
-  version: 1.0.2
-  resolution: "parcel-transformer-ttypescript@npm:1.0.2"
-  checksum: ef1f1b2cd594d378036d41487559196262f739b4fa6cb9b0573d93ed559d9d9adf5e9639c070f939450136282c41e476e9a4be73784696425335372f8cbfa198
-  languageName: node
-  linkType: hard
-
 "parcel@npm:2.6.0":
   version: 2.6.0
   resolution: "parcel@npm:2.6.0"
@@ -18149,13 +18111,6 @@ __metadata:
     posthtml-parser: ^0.11.0
     posthtml-render: ^3.0.0
   checksum: 8b9b9d27bd2417d6b5b7d408000b23316c3c4d2a2d0ea62080a8fbec5654cc7376ea9d6317b290c030d616142144a8ca0a96ffe1e919493e3eac17442d362596
-  languageName: node
-  linkType: hard
-
-"preact@npm:10.7.3":
-  version: 10.7.3
-  resolution: "preact@npm:10.7.3"
-  checksum: a0471da77528b9f9478c02bf60ae41754509655a19b65d9fea274a3c94c9583a7b1700e1329ee726ef6dd5307b73cf391d3f7f1b6a9ace43d71a70cd1be92737
   languageName: node
   linkType: hard
 
@@ -18987,15 +18942,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:18.1.0":
-  version: 18.1.0
-  resolution: "react@npm:18.1.0"
-  dependencies:
-    loose-envify: ^1.1.0
-  checksum: 5bb296b561b43ef2220395da4faac86c14a087c8c80e1a7598a5740f01ee605c11eaf249985c1e2000971c4cd32ccb46d40f00479bbd9fb6b1c7cf857393b7d4
-  languageName: node
-  linkType: hard
-
 "read-pkg-up@npm:^1.0.1":
   version: 1.0.1
   resolution: "read-pkg-up@npm:1.0.1"
@@ -19615,16 +19561,9 @@ __metadata:
   dependencies:
     "@jsapps/core": "*"
     "@jsapps/map": "*"
-    "@parcel/transformer-typescript-tsc": 2.6.0
-    "@types/react": 18.0.0
-    "@types/react-dom": 18.0.0
     parcel: 2.6.0
-    parcel-transformer-ttypescript: ^1.0.2
-    preact: 10.7.3
     react: 18.0.0
     react-dom: 18.0.0
-    ts-config-jsapps: "*"
-    typescript: ">=3.0.0"
   languageName: unknown
   linkType: soft
 

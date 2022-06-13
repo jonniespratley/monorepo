@@ -16,12 +16,15 @@
     "lint": "TIMING=1 eslint \"src/**/*.{ts,tsx,js,jsx}\" --fix",
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
   },
+  "dependencies": {
+    "react": "18.0.0",
+    "react-dom": "18.0.0"
+  },
   "devDependencies": {
-    "@types/react": "18.0.9",
-    "@types/react-dom": "18.0.4",
+    "@types/react": "18.0.0",
+    "@types/react-dom": "18.0.0",
     "eslint": "8.15.0",
     "eslint-config-jsapps": "*",
-    "react": "18.1.0",
     "ts-config-jsapps": "*",
     "tsup": "5.10.1",
     "typescript": "4.5.3"

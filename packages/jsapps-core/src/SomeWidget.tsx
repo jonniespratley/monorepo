@@ -4,7 +4,7 @@ import {
   ListNext as List,
   ListItemBase,
   ListItemBaseSection,
-  PresenceType
+  PresenceType,
 } from '@momentum-ui/react-collaboration';
 import * as React from 'react';
 

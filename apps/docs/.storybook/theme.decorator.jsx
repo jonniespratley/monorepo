@@ -8,7 +8,7 @@ const theme = (Story, { globals }) => {
       ? {
           alignItems: 'flex-start',
           display: 'flex',
-          flexWrap: 'wrap'
+          flexWrap: 'wrap',
         }
       : {};
 
@@ -22,7 +22,7 @@ const theme = (Story, { globals }) => {
         height: '100vh',
         overflowY: 'scroll',
         padding: '2rem',
-        ...displayProperties
+        ...displayProperties,
       }}
     >
       <Story />

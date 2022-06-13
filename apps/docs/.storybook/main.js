@@ -8,12 +8,12 @@ module.exports = {
   addons: [
     '@storybook/addon-links',
     '@storybook/addon-essentials',
-    '@storybook/preset-scss'
+    '@storybook/preset-scss',
   ],
   framework: '@storybook/react',
   core: {
     //builder: '@storybook/builder-vite',
-    builder: 'webpack5'
+    builder: 'webpack5',
   },
   async webpackFinal(config, { configType }) {
     config.resolve.alias['@momentum-ui/core/images'] = path.resolve(
@@ -28,13 +28,13 @@ module.exports = {
 
     const assetLoader = {
       loader: assetRule.loader,
-      options: assetRule.options || assetRule.query
+      options: assetRule.options || assetRule.query,
     };
 
     // Merge our rule with existing assetLoader rules
     config.module.rules.unshift({
       test: /\.svg$/,
-      use: ['@svgr/webpack', assetLoader]
+      use: ['@svgr/webpack', assetLoader],
     });
 
     config.resolve.alias['@jsapps/core'] = path.resolve(
@@ -48,11 +48,11 @@ module.exports = {
 
     // customize the config here
     const finalConfig = {
-      ...config
+      ...config,
     };
 
     console.log('config', finalConfig);
 
     return finalConfig;
-  }
+  },
 };

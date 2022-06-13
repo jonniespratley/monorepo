@@ -3,10 +3,19 @@
   "compilerOptions": {
     "isolatedModules": true,
     "experimentalDecorators": true,
-   
     "target": "es2021",
     "strict": true,
     "lib": ["dom", "es2015"],
-    "jsx": "react-jsx"
-  }
+    "jsx": "react",
+
+    "baseUrl": "./src",
+    "paths": {
+      "~*": ["./*"]
+    },
+    "plugins": [
+      {"transform": "./build-scripts/di-transformer-adapter.ts" },
+      {"transform": "ts-transformer-classname" }
+    ]
+  },
+  "include": ["src/**/*"]
 }

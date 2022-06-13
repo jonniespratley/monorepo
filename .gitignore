@@ -8,6 +8,7 @@ dist-ssr
 *.local
 .env
 .cache
+.yarn
 .parcel-cache/
 server/dist
 public/dist

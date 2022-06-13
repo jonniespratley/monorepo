@@ -9,6 +9,7 @@ dist-ssr
 .env
 .cache
 .yarn/cache
+.yarn/install-state.gz
 .parcel-cache/
 server/dist
 public/dist

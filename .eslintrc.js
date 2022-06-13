@@ -4,7 +4,7 @@ module.exports = {
   extends: ['jsapps'],
   settings: {
     next: {
-      rootDir: ['apps/*/'],
-    },
-  },
+      rootDir: ['apps/*/']
+    }
+  }
 };

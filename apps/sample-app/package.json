@@ -1,0 +1,30 @@
+{
+  "name": "sample-app",
+  "version": "0.0.0",
+  "description": "A sample app",
+  "source": "src/index.html",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "parcel build src/index.html",
+    "dev": "parcel src/index.html",
+    "test": "jest",
+    "lint": "eslint",
+    "check": "tsc --noEmit",
+    "ci": "yarn build && yarn test && yarn lint && yarn check"
+  },
+  "dependencies": {
+    "react": "18.1.0",
+    "react-dom": "18.1.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-typescript-tsc": "^2.6.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "parcel": "^2.6.0",
+    "preact": "^10.7.3",
+    "ts-config-jsapps": "*",
+    "typescript": ">=3.0.0"
+  }
+}
